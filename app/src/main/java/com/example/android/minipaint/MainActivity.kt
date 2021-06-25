@@ -5,11 +5,27 @@ import android.os.Bundle
 
 //TODO RIASSUNTO DEI TASKS
 
-/*TODO - 1 Crea la classe MyCanvasView
-Che prende un parametro di tipo Context e restituisce una View (che ha come argomento lo stesso context)!!!!
-
+/*TODO - 1 Crea una nuova stringa "canvasContentDescription"
+    <string name="canvasContentDescription">Mini Paint is a simple line drawing app.
+   Drag your fingers to draw. Rotate the phone to clear.</string>
  */
 
+/*TODO - 2 Crea una istanza di MyCanvasView
+    (prima si deve cancellare setContentView)
+    val myCanvasView = MyCanvasView(this)
+ */
+
+/*TODO - 3 Richiedi lo schermo completo per il canvas
+    myCanvasView.systemUiVisibility = SYSTEM_UI_FLAG_FULLSCREEN
+ */
+
+/* TODO - 4 Aggiungi una descrizione del contenuto
+    myCanvasView.contentDescription = getString(R.string.canvasContentDescription)
+ */
+
+/* TODO - 5 Carica myCanvasView come view associata
+    setContentView(myCanvasView)
+ */
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
