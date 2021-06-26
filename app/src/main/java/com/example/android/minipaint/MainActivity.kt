@@ -16,7 +16,7 @@ import android.os.Bundle
  */
 
 /*TODO - 3 Richiedi lo schermo completo per il canvas
-    myCanvasView.systemUiVisibility = SYSTEM_UI_FLAG_FULLSCREEN
+    myCanvasView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
  */
 
 /* TODO - 4 Aggiungi una descrizione del contenuto
